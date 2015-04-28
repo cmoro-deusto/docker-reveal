@@ -3,7 +3,9 @@ Docker container based on Ubuntu for reveal.js, including wetty and yeoman revea
 
 ## Software
 [reveal.js](http://lab.hakim.se/reveal-js/#/) presentation software.
+
 [Yeoman Generator for reveal.js](https://github.com/slara/generator-reveal)
+
 [Wetty](https://github.com/krishnasrinivas/wetty) terminal in a browser (chrome).
 
 ## Usage
