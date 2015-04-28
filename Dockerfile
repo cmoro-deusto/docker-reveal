@@ -47,6 +47,7 @@ WORKDIR /home/reveal/presos
 VOLUME /home/reveal/presos
 
 EXPOSE 8000
+EXPOSE 9000
 
 USER reveal
 
