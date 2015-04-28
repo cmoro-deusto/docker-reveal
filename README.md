@@ -45,3 +45,7 @@ If you want to keep grunt watching the directory and autogenerating the slides o
 ```docker exec -it <container_id> /bin/bash```
 
 then cd to your slides deck folder and use the generator from there.
+
+## Kudos
+[Amouat reveal docker image](https://github.com/amouat/revealjs-docker)
+[James Turnbull's blog post on dockerizing reveal](http://kartar.net/2014/05/presenting-with-docker/)
