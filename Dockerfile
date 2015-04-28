@@ -42,12 +42,6 @@ RUN npm install -g yo
 # Install reveal.js yeoman generator
 RUN npm install -g generator-reveal
 
-# Add content
-#ADD docker.css /opt/presentation/css/theme/docker.css
-#ADD index.html /opt/presentation/index.html
-#ADD images /opt/presentation/images/
-#ADD slides /opt/presentation/slides/
-
 WORKDIR /home/reveal/presos
 
 VOLUME /home/reveal/presos
@@ -56,5 +50,4 @@ EXPOSE 8000
 
 USER reveal
 
-CMD /bin/bash
-#CMD [ "grunt", "serve" ]
+CMD [ "grunt", "serve" ]
